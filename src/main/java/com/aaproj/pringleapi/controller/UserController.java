@@ -13,6 +13,6 @@ public class UserController {
 
     @GetMapping
     public ResponseEntity<Object> getUsers() {
-        return ResponseEntity.ok(Arrays.asList("dude1", "dude2"));
+        return ResponseEntity.ok(Arrays.asList("dude1", "dude2", "duda3"));
     }
 }
